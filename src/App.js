@@ -19,7 +19,7 @@ class App extends React.Component {
   deleteItems = (e) => {
    this.setState({inicialState: this.state.inicialState.filter((el) => {
     if (el.id !== e.target.id) {
-      return [el];
+      return [el]
     }
   }) })
   };
